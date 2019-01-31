@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Segitiga">
+
+    <ImageView
+        android:id="@+id/segitiga"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/segitiga"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editalas"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="Alas"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_below="@id/segitiga"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/xxx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_below="@id/segitiga"
+        android:layout_toRightOf="@id/editalas"
+        android:layout_marginTop="35dp"/>
+
+    <EditText
+        android:id="@+id/edittinggi"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="Tinggi"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_below="@id/segitiga"
+        android:layout_toRightOf="@id/xxx"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnaxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textSize="30dp"
+        android:layout_below="@id/editalas"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtHasilaxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_below="@id/editalas"
+        android:layout_toRightOf="@id/btnaxt"
+        android:layout_marginTop="31dp"
+        android:layout_marginLeft="10dp"/>
+
+</RelativeLayout>

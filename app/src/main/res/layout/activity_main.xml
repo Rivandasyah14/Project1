@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnPersegi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Persegi"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btnSegitiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Segitiga"
+        android:layout_toRightOf="@id/btnPersegi"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/btnPersegipanjang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Persegi Panjang"
+        android:layout_toLeftOf="@id/btnPersegi"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="25dp"/>
+
+    <ImageView
+        android:id="@+id/ehejpg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ehe"
+        android:layout_above="@id/btnPersegi"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

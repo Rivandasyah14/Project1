@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersegiPanjang">
+
+    <ImageView
+        android:id="@+id/pp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/persegi"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="Sisi"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_below="@id/pp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnSisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textSize="30dp"
+        android:layout_below="@id/pp"
+        android:layout_toRightOf="@id/editText"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_below="@id/pp"
+        android:layout_toRightOf="@id/btnSisi"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"/>
+
+</RelativeLayout>
